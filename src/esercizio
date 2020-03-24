@@ -1,0 +1,15 @@
+Definire la classe veicolo, che definisce un veicolo con le seguenti caratteristiche:
+- numero Matricola;
+- nome proprietario.
+I seguenti metodi possono cambiare e far vedere il nome del proprietario e il numero di matricola.
+Void assegnaProprietario(String nome)
+String dammiProprietario()
+void assegnaMatricola(int matricola)
+int dammiMatricola()
+Definire la sottoclasse auto che ha in più il tipo (che puo' essere ad esempio: sport, familiare,...) e i metodi per
+assegnarlo e visualizzarlo.
+Definire la sottoclasse camion che ha in più il numero di assi (che possono essere ad esempio: 2, 3,o 4) e i metodi
+per assegnarlo e visualizzarlo.
+Definire la sottoclasse moto che ha in più il numero di posti (che possono essere ad esempio: sport, familiare,...) e
+i metodi per assegnarlo e visualizzarlo.
+Scrivere la classe main che testa le classi Veicolo, Auto, Moto e Camion.
