@@ -37,3 +37,4 @@ public class provaVeicolo {
         System.out.println(m2.dammiNumPosti())
     }
 }
+
