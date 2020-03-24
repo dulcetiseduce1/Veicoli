@@ -1,3 +1,4 @@
+
 public class Veicolo {
 
     protected int numeroMatricola;

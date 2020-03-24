@@ -1,7 +1,10 @@
-public class Moto extends Veicolo{
 
-    public Moto(int nMatricola, int nProprietario){
-        super(nMatricola, nProprietario);
+public class Moto extends Auto{
+
+    public Moto(int nMatricola, int nProprietario, String t){
+
+        super(nMatricola, nProprietario,t);
+
     }
 
 }

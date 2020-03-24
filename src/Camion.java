@@ -1,8 +1,10 @@
 
-public class Camion extends Velicolo{
+public class Camion extends Auto{
 
-    public Camion(int nMatricola, int nProprietario){
-        super(nMatricola, nProprietario);
+    public Camion(int nMatricola, int nProprietario, String t){
+
+        super(nMatricola, nProprietario,t);
+
     }
 
 }
