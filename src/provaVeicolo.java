@@ -4,19 +4,19 @@ public class provaVeicolo {
     public static void main(String[] arg) {
 
 
-        auto a = new auto();
+        Auto a = new Auto();
         a.assegnaProprietario("Luca");
         a.assegnaMatricola(1234);
         a.assegnaTipo("Sport");
 
 
-        camion c = new camion();
+        Camion c = new Camion();
         c.assegnaProprietario("Anna");
         c.assegnaMatricola(34231);
         c.assegnaAssi(3);
 
 
-        moto m = new moto();
+        Moto m = new Moto();
         m.assegnaProprietario("Valentino");
         m.assegnaMatricola(8765);
         m.assegnaNumPosti(2);
@@ -27,13 +27,13 @@ public class provaVeicolo {
 
         System.out.println("Moto di: " + m.dammiProprietario() + "numero Matricola: " + m.dammiMatricola() + "numero Posti: ") + m.dammiNumPosti());
 
-        veicolo v = new veciolo();
+        Veicolo v = new Veicolo();
         v = m;
 
         if (v instanceof moto)
             System.out.println("il veicolo è una moto");
 
-        moto m2 = (moto)v;
+        Moto m2 = (Moto)v;
         System.out.println(m2.dammiNumPosti())
     }
 }
