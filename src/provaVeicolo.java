@@ -1,4 +1,4 @@
-//test classe Veicolo Auto Moto Camion
+//main
 
 public class provaVeicolo {
     public static void main(String[] arg) {
@@ -34,6 +34,6 @@ public class provaVeicolo {
             System.out.println("il veicolo è una moto");
 
         moto m2 = (moto)v;
-        System.out.println(m2.dammiNumPosti()))
+        System.out.println(m2.dammiNumPosti())
     }
 }

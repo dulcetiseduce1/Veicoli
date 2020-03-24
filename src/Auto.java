@@ -1,2 +1,3 @@
-public class Auto {
+public class Auto extends Veicolo{
+
 }
