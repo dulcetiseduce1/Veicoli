@@ -30,7 +30,7 @@ public class provaVeicolo {
         Veicolo v = new Veicolo();
         v = m;
 
-        if (v instanceof moto)
+        if (v instanceof Moto)
             System.out.println("il veicolo è una moto");
 
         Moto m2 = (Moto)v;
