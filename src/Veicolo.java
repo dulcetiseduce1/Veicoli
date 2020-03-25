@@ -1,15 +1,18 @@
-
+import java.util.Scanner;
 public class Veicolo {
-
-    protected int numeroMatricola;
-    protected int nomeProprietario;
+Scanner sc = new Scanner (System.in);
+    int numeroMatricola;
+    int nomeProprietario;
 
     public Veicolo(int nMatricola, int nProprietario) {
         nomeProprietario = nProprietario;
         numeroMatricola = nMatricola;
     }
 
-    public void assegnaProprietario(String nome) {
+    public void assegnaProprietario() {
+
+    System.out.println ("come si chiama il proprietario:");
+    nomeProprietario = sc.next();
 
     }
 
@@ -17,7 +20,9 @@ public class Veicolo {
 
     }
 
-    public void assegnaMatricola(int matricola) {
+    public void assegnaMatricola() {
+        System.out.println ("Matricola:");
+       numeroMatricola = sc.nextInt();
 
     }
 
