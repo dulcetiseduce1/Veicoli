@@ -7,4 +7,14 @@ public class Camion extends Auto{
 
     }
 
+    public void assegnaAssi(int i) {
+
+    }
+
+
+    public int dammiAssi() {
+
+    }
+
+
 }

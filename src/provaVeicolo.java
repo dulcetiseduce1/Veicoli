@@ -25,7 +25,7 @@ public class provaVeicolo {
 
         System.out.println("Camion di: " + c.dammiProprietario() + "numero Matricola: " + c.dammiMatricola() + "numero assi: " + c.dammiAssi());
 
-        System.out.println("Moto di: " + m.dammiProprietario() + "numero Matricola: " + m.dammiMatricola() + "numero Posti: ") + m.dammiNumPosti());
+        System.out.println("Moto di: " + m.dammiProprietario() + "numero Matricola: " + m.dammiMatricola() + "numero Posti: " + m.dammiNumPosti());
 
         Veicolo v = new Veicolo();
         v = m;
@@ -34,7 +34,7 @@ public class provaVeicolo {
             System.out.println("il veicolo è una moto");
 
         Moto m2 = (Moto)v;
-        System.out.println(m2.dammiNumPosti())
+        System.out.println(m2.dammiNumPosti());
     }
 }
 

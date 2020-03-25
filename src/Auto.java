@@ -6,11 +6,11 @@ public class Auto extends Veicolo{
         super(nMatricola, nProprietario);
         tipo = t;
     }
-    public void get dammiTipo()
+    public String dammiTipo()
     {
         return tipo;
     }
-    public void set assegnaTipo(String x)
+    public String assegnaTipo(String x)
     {
         tipo=x;
         return tipo;

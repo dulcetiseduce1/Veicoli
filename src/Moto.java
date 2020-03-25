@@ -7,4 +7,11 @@ public class Moto extends Auto{
 
     }
 
+    public void assegnaNumPosti(int i) {
+
+    }
+
+    public int dammiNumPosti() {
+
+    }
 }
