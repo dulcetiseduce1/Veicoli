@@ -9,9 +9,8 @@ public class Veicolo {
         numeroMatricola = nMatricola;
     }
 
-    public String assegnaProprietario() {
-
-        {
+    public String assegnaProprietario()
+    {
      nomeProprietario=nome;
     }
 
